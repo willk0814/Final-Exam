@@ -1,0 +1,22 @@
+
+.label {
+    -fx-font-family: "Courier New", Times, serif;
+    -fx-font-size: 10pt;
+}
+.button {
+	-fx-font-family: "Verdana", Times, serif;
+    -fx-font-size: 11pt;
+    -fx-font-weight: bold;
+    -fx-background-color: #009933;
+    -fx-border-radius: 8px;
+    -fx-transition-duration: 0.4s;
+}
+.button:hover {
+	-fx-background-color: #66ff99;
+}
+.root {
+    -fx-background-image: url(golfCourse.jpg);
+    -fx-border-color: black;
+    -fx-border-style: ridge;
+    -fx-border-width: 10pt;
+}
